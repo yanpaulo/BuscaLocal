@@ -7,7 +7,7 @@
     <ProjectGuid>{61AF2EB3-9055-4570-9B00-A05A79C1D3E0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>BuscaLocal</RootNamespace>
-    <AssemblyName>BuscaLocal</AssemblyName>
+    <AssemblyName>busca</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="AlgoritmoHillClimbing.cs" />
     <Compile Include="AlgoritmoSimulatedAnnealing.cs" />
+    <Compile Include="IAlgoritmoHillClimbing.cs" />
     <Compile Include="LinqExtensions.cs" />
     <Compile Include="Posicao.cs" />
     <Compile Include="Program.cs" />

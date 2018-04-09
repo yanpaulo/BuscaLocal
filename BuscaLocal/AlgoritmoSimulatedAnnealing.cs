@@ -2,7 +2,7 @@
 
 namespace BuscaLocal
 {
-    public class AlgoritmoSimulatedAnnealing
+    public class AlgoritmoSimulatedAnnealing : IAlgoritmo
     {
         public AlgoritmoSimulatedAnnealing(Tabuleiro tabuleiro)
         {

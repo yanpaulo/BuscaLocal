@@ -2,7 +2,7 @@
 
 namespace BuscaLocal
 {
-    public class AlgoritmoHillClimbing
+    public class AlgoritmoHillClimbing : IAlgoritmo
     {
         public AlgoritmoHillClimbing(Tabuleiro tabuleiro)
         {
